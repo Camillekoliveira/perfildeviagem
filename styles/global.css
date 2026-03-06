@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -24,4 +24,29 @@
 body{
   color: var(--text-color-secondary);
   background-color: var(--background-color);
+}
+
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;  
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color);
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
 }
